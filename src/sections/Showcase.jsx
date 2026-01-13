@@ -57,6 +57,30 @@ const Showcase = () => {
                 An app built with laravel, React Native & Expo for a fast,
                 user-friendly experience.
               </p>
+              <div className="flex items-center gap-2 cursor-pointer transition-opacity hover:opacity-80 w-fit">
+                <a
+                  href="https://github.com/Alyyy07/mycademy-website-laravel"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-white font-semibold text-lg flex items-center gap-2"
+                >
+                  View Repository
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -66,13 +90,59 @@ const Showcase = () => {
               <div className="image-wrapper bg-[#ffefdb]">
                 <img src="/images/project2.png" alt="Promptopia" />
               </div>
-              <h2>AI Prompting Tool Platform with NextJS</h2>
+              <div className="flex justify-between items-start mt-5">
+                <h2 className="!mt-0">AI Prompting Tool Platform with NextJS</h2>
+                <a
+                  href="https://github.com/Alyyy07/project_promptopia"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="shrink-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6 transition-transform hover:-translate-y-1 hover:translate-x-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="/images/project3.png" alt="E-RPL" />
               </div>
-              <h2>Laravel-Based e-RPL Admission Website</h2>
+              <div className="flex justify-between items-start mt-5">
+                <h2 className="!mt-0">Laravel-Based e-RPL Admission Website</h2>
+                <a
+                  href="https://github.com/Alyyy07/e-rpl-laravel"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="shrink-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6 transition-transform hover:-translate-y-1 hover:translate-x-1"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
