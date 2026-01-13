@@ -1,16 +1,54 @@
-# React + Vite
+# Personal 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive 3D personal portfolio website built with React, Three.js, and TailwindCSS. This project showcases a developer's skills and projects in an immersive 3D environment.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Immersive 3D Experience**: Integrated 3D models and environments using Three.js and React Three Fiber.
+- **Responsive Design**: Fully responsive layout ensuring a seamless experience across all devices.
+- **Interactive Animations**: Smooth animations and transitions powered by GSAP.
+- **Contact Form**: Functional contact form integrated with EmailJS.
+- **Modern UI/UX**: Clean and modern user interface styled with TailwindCSS.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **[React 19](https://react.dev/)**: The library for web and native user interfaces.
+- **[Vite](https://vitejs.dev/)**: Next Generation Frontend Tooling.
+- **[TailwindCSS 4](https://tailwindcss.com/)**: A utility-first CSS framework for rapidly building modern websites.
+- **[Three.js](https://threejs.org/)**: JavaScript 3D Library.
+- **[React Three Fiber](https://docs.pmnd.rs/react-three-fiber)**: React renderer for Three.js.
+- **[React Three Drei](https://github.com/pmndrs/drei)**: Useful helpers for React Three Fiber.
+- **[GSAP](https://gsap.com/)**: Professional-grade JavaScript animation for the modern web.
+- **[EmailJS](https://www.emailjs.com/)**: Send email directly from your code.
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Alyyy07/personal-3d-portfolio.git
+   cd personal-3d-portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add your EmailJS credentials (see `.env.example`).
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📜 Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Runs ESLint to check for code quality.
+- `npm run preview`: Locally previews the production build.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
